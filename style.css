@@ -1,0 +1,36 @@
+body{
+        background-color: #ffff;
+        color:#34495E;
+        font-size: 16px;
+        overflow: hidden;
+}
+#contenedor{
+        display: flex;
+        height: 100vh;
+    position: absolute;
+    top: 0px;
+}
+#main{
+        width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #F2F3F4;
+    flex-direction: column;
+}
+#tools{
+    width: 20%;
+    text-align: center;
+    
+}
+#tools .content{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+}
+#tools img{
+        max-width: 100%;
+        opacity: 0.2;
+}
+.active{
+        opacity: 1!important;
+}
